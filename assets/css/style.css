@@ -57,3 +57,8 @@ button:hover {
   border: 2px solid white;
   font-size: 13px;
 }
+
+@media only screen and (max-width: 768px) {
+  button {
+    width: 70px;
+}
