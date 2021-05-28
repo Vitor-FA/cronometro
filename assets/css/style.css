@@ -60,5 +60,6 @@ button:hover {
 
 @media only screen and (max-width: 768px) {
   button {
-    width: 70px;
+    width: 50px;
+  }
 }
