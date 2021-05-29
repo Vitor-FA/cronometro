@@ -18,11 +18,20 @@ body {
 
 .container {
   max-width: 640px;
-  margin: 50px auto;
   background: var(--text-color);
   padding: 20px;
   border-radius: 10px;
   text-align: center;
+  position: absolute;
+  right: 0;
+  left: 0;
+  margin: 0;
+  top: 50vh;
+  transform: translateY(-50%);
+}
+
+.cronometro {
+  position: relative;  
 }
 
 button {
